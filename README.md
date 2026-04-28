@@ -1,6 +1,6 @@
 # Trading 212 API Client
 
-A complete, type-safe TypeScript/JavaScript client library for the [Trading 212 Public API](https://t212.dev/). Works in Node.js and modern browsers.
+A complete, type-safe TypeScript/JavaScript client library for the [Trading 212 Public API](https://docs.trading212.com/api). Works in Node.js and modern browsers.
 
 ## Features
 
@@ -15,13 +15,13 @@ A complete, type-safe TypeScript/JavaScript client library for the [Trading 212 
 ## Installation
 
 ```bash
-npm install trading-212-api
+npm install trading212-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { Trading212Client } from 'trading-212-api';
+import { Trading212Client } from 'trading212-sdk';
 
 const client = new Trading212Client({
   apiKey: 'your-api-key',
@@ -398,12 +398,11 @@ console.log('Reset at:', new Date(response.rateLimitReset! * 1000));
 ## API Documentation
 
 For detailed API documentation, see:
-- [Trading 212 Public API Docs](https://t212.dev/)
-- [API Reference](https://t212.dev/api-docs/)
+- [Trading 212 Public API Docs](https://docs.trading212.com/api)
 
 ## Contributing
 
-Issues and pull requests welcome on [GitHub](https://github.com/Trading212/trading-212-api-client)
+Issues and pull requests welcome on [GitHub](https://github.com/samueljochem/trading212-sdk)
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "trading212-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trading 212 JavaScript/TypeScript client library for the Trading 212 Public API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -47,10 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Trading212/trading-212-api-client.git"
+    "url": "https://github.com/samueljochem/trading212-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Trading212/trading-212-api-client/issues"
+    "url": "https://github.com/samueljochem/trading212-sdk/issues"
   },
-  "homepage": "https://github.com/Trading212/trading-212-api-client"
+  "homepage": "https://github.com/samueljochem/trading212-sdk"
 }

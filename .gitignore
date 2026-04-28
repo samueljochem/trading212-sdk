@@ -138,3 +138,4 @@ dist
 # test usage file
 .test.js
 .npmrc
+openapi.json
