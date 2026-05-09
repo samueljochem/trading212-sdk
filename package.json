@@ -2,13 +2,13 @@
   "name": "trading212-sdk",
   "version": "1.0.1",
   "description": "Trading 212 JavaScript/TypeScript client library for the Trading 212 Public API",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "scripts": {
